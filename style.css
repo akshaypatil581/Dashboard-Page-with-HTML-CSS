@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Caladea', serif;
+}
+
+p {
+  color: #C4C4C4;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper .sidebar-left {
+  flex-basis: 15%;
+}
+
+.wrapper .main {
+  flex-basis: 60%;
+}
+
+.wrapper .sidebar-right {
+  flex-basis: 25%;
+}
